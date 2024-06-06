@@ -1,6 +1,6 @@
 FROM ubuntu 
 
-RUN yum-get update 
+RUN yum update 
 RUN yum install -y python3
 RUN yum install -y python3-pip
 RUN pip install flask 
